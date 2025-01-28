@@ -1,6 +1,6 @@
 "use client";
-import Button from "@/app/ui/Button";
-import Heading from "@/app/ui/Heading";
+import Button from "@/app/ui/button";
+import Heading from "@/app/ui/heading";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -36,7 +36,7 @@ function SignUpForm() {
 
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-[#11296B] mb-1">
               Email
             </label>
             <input
@@ -48,7 +48,7 @@ function SignUpForm() {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-[#11296B] mb-1">
               Password
             </label>
             <input
@@ -58,14 +58,14 @@ function SignUpForm() {
               value={password}
               onChange={handlePasswordChange}
             />
-            <p className="flex items-center text-xs text-gray-500 mt-1">
+            <p className="flex items-center text-xs text-[#11296B] mt-1">
               <span className="a-icon a-icon-alert mr-2"></span>
               Password must consist of at least 6 characters.
             </p>
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-[#11296B] mb-1">
               Confirm Password
             </label>
             <input
@@ -86,8 +86,8 @@ function SignUpForm() {
 
           <div className="flex space-x-4">
             <div className="w-1/2">
-              <label className="block text-sm font-medium text-gray-700 mb-1">
-                First Name 
+              <label className="block text-sm font-medium text-[#11296B] mb-1">
+                First Name
               </label>
               <input
                 type="text"
@@ -98,7 +98,7 @@ function SignUpForm() {
             </div>
 
             <div className="w-1/2">
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-sm font-medium text-[#11296B] mb-1">
                 Last Name
               </label>
               <input
@@ -111,7 +111,7 @@ function SignUpForm() {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-[#11296B] mb-1">
               Username
             </label>
             <input
@@ -124,7 +124,7 @@ function SignUpForm() {
           <div className="mt-10 border-t border-gray-300"></div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-[#11296B] mb-1">
               Address
             </label>
             <input

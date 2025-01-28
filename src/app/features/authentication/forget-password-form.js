@@ -1,5 +1,5 @@
-import Button from "@/app/ui/Button";
-import Heading from "@/app/ui/Heading";
+import Button from "@/app/ui/button";
+import Heading from "@/app/ui/heading";
 import Link from "next/link";
 import React from "react";
 
@@ -13,8 +13,8 @@ function ForgetPasswordForm() {
 
         <form className="space-y-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Email 
+            <label className="block text-sm font-medium text-[#11296B] mb-1">
+              Email
             </label>
             <input
               type="email"
