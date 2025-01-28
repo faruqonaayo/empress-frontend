@@ -1,5 +1,6 @@
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "react-hot-toast";
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         className={`${openSans.className}`}
       >
         {children}
+        <Toaster/>
       </body>
     </html>
   );
