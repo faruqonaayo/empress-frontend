@@ -1,14 +1,11 @@
-import Image from "next/image";
+import LandingPage from "./ui/landing-page";
 
 export default function Home() {
   return (
     <div className="">
       <main className="">
-        
+        <LandingPage />
       </main>
-      <footer className="">
-        
-      </footer>
     </div>
   );
 }
